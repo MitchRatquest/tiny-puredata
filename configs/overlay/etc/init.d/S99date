@@ -1,0 +1,5 @@
+#!/bin/sh
+r='Wed, 1 Jan 2020 22:51:53 GMT'
+d=$(date -d "$r" -D "%a, %d %b %Y %T %Z" +'%Y-%m-%d %H:%M:%S')
+# d becomes 2019-01-15 09:01:53
+date -s "$d"
