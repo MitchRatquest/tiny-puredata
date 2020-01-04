@@ -1,0 +1,11 @@
+--- a/package/Config.in	2020-01-04 11:50:39.971107610 -0600
++++ b/package/Config.in	2020-01-04 11:51:00.403169144 -0600
+@@ -50,6 +50,7 @@
+ 	source "package/on2-8170-libs/Config.in"
+ 	source "package/opus-tools/Config.in"
+ 	source "package/pulseaudio/Config.in"
++	source "package/puredata/Config.in"
+ 	source "package/sox/Config.in"
+ 	source "package/squeezelite/Config.in"
+ 	source "package/tovid/Config.in"
+raul@tinybox:/code/latest/buildroot/package
