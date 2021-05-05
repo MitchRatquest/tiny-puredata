@@ -8,8 +8,6 @@ then
 	cd ../
 fi
 
-cp -a packages/puredata/ buildroot/package/
-
 #apply patches to buildroot
 cd buildroot
 patch -p1 < ../patches/buildroot/0002-ssh-none.patch
