@@ -1,0 +1,14 @@
+diff --git a/package/mpg123/mpg123.mk b/package/mpg123/mpg123.mk
+index 5e3b7fd94e..b8256d091c 100644
+--- a/package/mpg123/mpg123.mk
++++ b/package/mpg123/mpg123.mk
+@@ -23,7 +23,7 @@ ifeq ($(BR2_arm),y)
+ ifeq ($(or $(BR2_ARM_CPU_HAS_NEON),$(BR2_ARM_CPU_HAS_VFPV2)),y)
+ MPG123_CPU = arm_fpu
+ else
+-MPG123_CPU = arm_nofpu
++MPG123_CPU = generic_nofpu
+ endif
+ endif
+ 
+
