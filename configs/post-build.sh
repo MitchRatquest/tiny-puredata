@@ -13,11 +13,12 @@ BOOT_CMD_H="${BINARIES_DIR}/boot.scr"
 #cp $TARGET_DIR/usr/bin/wish8.6 		$TARGET_DIR/usr/bin/wish
 
 #should remove redundant stuff here too
-#rm $TARGET_DIR/etc/init.d/S50telnet
-#rm $TARGET_DIR/etc/init.d/S30rpcbind
+rm $TARGET_DIR/etc/init.d/S01syslogd
+rm $TARGET_DIR/etc/init.d/S02klogd
 rm $TARGET_DIR/etc/init.d/S20urandom
-#rm $TARGET_DIR/etc/init.d/S30dbus
-#rm $TARGET_DIR/etc/init.d/S10udev
+rm $TARGET_DIR/etc/init.d/S02sysctl
+rm $TARGET_DIR/etc/init.d/S21haveged
+rm $TARGET_DIR/etc/init.d/S80dnsmasq
 chmod 0600 ${TARGET_DIR}/etc/ssh/*key
 
 # U-Boot script
