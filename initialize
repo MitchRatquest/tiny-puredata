@@ -1,0 +1,5 @@
+#!/bin/bash
+git submodule update --init
+make O=$PWD -C buildroot/ defconfig BR2_EXTERNAL=../littlefreelibrary BR2_DEFCONFIG=../littlefreelibrary/configs/buildroot-defconfig
+
+
