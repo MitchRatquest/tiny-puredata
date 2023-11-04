@@ -1,0 +1,4 @@
+menu "Packages"
+source "$BR2_EXTERNAL_LITTLEFREELIBRARY_PATH/package/puredata/Config.in"
+source "$BR2_EXTERNAL_LITTLEFREELIBRARY_PATH/package/websocketd/Config.in"
+endmenu

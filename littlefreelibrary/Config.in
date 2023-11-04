@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_LITTLEFREELIBRARY_PATH/package/Config.in"
